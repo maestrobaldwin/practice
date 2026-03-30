@@ -1,0 +1,13 @@
+body {background-color: grey;
+    color: white;}
+p {background-color: lightblue;
+    color:aliceblue;}
+h1 {background-color: violet;
+    color: white;}
+h2 {background-color: lightgreen;
+    color: black;}
+.grey-element {
+    background-color: lightGray;}
+.redElement {background-color: red;
+    color: white;}
+

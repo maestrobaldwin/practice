@@ -1,0 +1,22 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    background-color:grey;
+    color: white;
+    font-family: Garamond;
+    font-size: 20px;
+    text-align: center;
+}
+.headshot {
+    width: 300px;
+    height: 300px;
+    border-radius: solid 20px white;
+    padding: 20px;
+
+}
