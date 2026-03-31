@@ -21,5 +21,28 @@ vocabulary:
     We can use querySelector to select elements based on their class, id, or other attributes. For example, document.querySelector(".my-class") would select the first element with the class "my-class". This method is useful for selecting elements that may not have a unique id or for selecting elements based on their position in the DOM.
     We use . for class and # for id when using querySelector. For example, document.querySelector("#my-id") would select the element with the id "my-id".
     querySelector only returns the first matching element. If there are multiple elements that match the selector, only the first one will be returned. If you want to select all matching elements, you can use the querySelectorAll() method instead.
-    
-    */
+16. If there a multiple classes with the same name, you can speccify the class with the appropriate element.
+    p.prompt = the paragraph with class prompt
+    To access a class with two prompts we use ".class1.class2"
+17. variable_name.lenght generates the length of the element in the html page
+18. getElementsByTagName () links to the HTML tag names
+19. getElementsByClassName () links to the HTLM class names
+20. querySelectorAll() - gets array-like lists of all elements
+    Great thing about querySelectorAll() it works with class and tag
+    Can look for tag or class of multiple elements
+    querySelectorAll(".movie, .tech, .school") looks for any/all of those tags/classes in the elements
+    can also look for IDs (".tag, .class, h3")
+    getElementsByClassName - ("class_name") no .
+    getELementById ("id_name")
+    getELementsByTagName("tag_name")
+    when using querySelector(".class #id tag")
+    tags don't require identifies (#, .)
+    id = #
+    class = .
+21. el[0] will return the first element in an array
+    Ex. p.innerText = el[2].innerHTML will display the 3rd item in the el array
+22. ".sport.news" searches for the element with tag/class combination (no , to seperate them)
+23. document.getElementById("name").innerHTML = "Updated Text" --> links the HTML document section to the javascript and .innerHTML chances the element
+24. .setAttribute("src", "https://xxxxxx"); - changes the listed attribute to the new link
+
+*/
