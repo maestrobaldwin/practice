@@ -44,5 +44,8 @@ vocabulary:
 22. ".sport.news" searches for the element with tag/class combination (no , to seperate them)
 23. document.getElementById("name").innerHTML = "Updated Text" --> links the HTML document section to the javascript and .innerHTML chances the element
 24. .setAttribute("src", "https://xxxxxx"); - changes the listed attribute to the new link
+25. To selected a section of the HTML and set it to a specific text:
+    document.querySelector("p").innerHTML = "Text" --> This doesn't create a variable, just the text assigned to the tag.
+
 
 */
