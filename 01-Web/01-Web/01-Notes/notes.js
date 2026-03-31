@@ -46,6 +46,35 @@ vocabulary:
 24. .setAttribute("src", "https://xxxxxx"); - changes the listed attribute to the new link
 25. To selected a section of the HTML and set it to a specific text:
     document.querySelector("p").innerHTML = "Text" --> This doesn't create a variable, just the text assigned to the tag.
+26. const usernname = document.getElementById("username").value; --> this creates a variable that is linked to the input field in the HTML document. The .value property allows you to get the current value of the input field, which can be used in your JavaScript code for further processing or manipulation.
+    Example:   
+    function register() {
+        const paragraph = document.querySelector("p");
+        const username = document.getElementById("username").value;
+        paragraph.innerHTML = username;
+        }
+27. We can change/update attributes in javascript
+    Example:
+    function changeAttribute() {
+        const el = document.querySelector("img");
+        el.src = "https://www.example.com/new-image.jpg";
+}
+    This function retreives the src of the image element on the html page, then the function changes that image src to the new link provided.
 
+28. We can also change input types in javascript
+    Example:
+    function chnageQuestionType() {
+        const el = document.querySelector("input");
+        el.type = "checkbox";
+    }   
+        This function retreives the input element on the html page, then the function changes that input type to a checkbox. This can be used to change the type of input based on user interaction or other conditions in your JavaScript code.
 
+29. We can also change the style of a website by linking to a new or existing css file.
+    Example:
+    function addStyleSheet() {
+        const el = document.querySelector("link"); --> this selects the link element in the HTML document, which is used to link to external stylesheets.
+        el.href = "style.css"; --> this changes the href attribute of the link element to "style.css", which is the name of the new stylesheet you want to apply to the webpage. This allows you to dynamically change the styling of your webpage by linking to different CSS files based on user interaction or other conditions in your JavaScript code.
+}
+30. .innerText = a property that allows you to get or set the text content of an element, without including any HTML tags. This is useful when you want to manipulate the text content of an element without affecting its structure or styling. For example, if you have a paragraph element with some text and you want to update that text, you can use the innerText property to set the new text value while keeping the existing HTML structure intact.
+31. 
 */
