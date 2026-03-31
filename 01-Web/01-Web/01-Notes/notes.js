@@ -76,5 +76,20 @@ vocabulary:
         el.href = "style.css"; --> this changes the href attribute of the link element to "style.css", which is the name of the new stylesheet you want to apply to the webpage. This allows you to dynamically change the styling of your webpage by linking to different CSS files based on user interaction or other conditions in your JavaScript code.
 }
 30. .innerText = a property that allows you to get or set the text content of an element, without including any HTML tags. This is useful when you want to manipulate the text content of an element without affecting its structure or styling. For example, if you have a paragraph element with some text and you want to update that text, you can use the innerText property to set the new text value while keeping the existing HTML structure intact.
-31. 
+31. set a constant variable to =document.querySelector("img") --> this creates a constant variable that is linked to the image element in the HTML document. By using querySelector, you can select the first image element on the page and assign it to the variable. This allows you to manipulate the properties of that image element, such as changing its source or alt text, using JavaScript.
+    then use the variable plus .src to change the image source to a new link. This is a common way to dynamically update the content of a webpage based on user interaction or other conditions in your JavaScript code.
+    Example:
+    const imageElement = document.querySelector("img");
+    imageElement.src = "https://www.example.com/new-image.jpg";
+
+    This works with any tag, not just images. You can select any element using querySelector and then manipulate its properties accordingly.
+    "input" - then update the type & placeholder to change the input type and placeholder text
+    "link" - then update the href to change the stylesheet
+        variable.href="style.css";
+    "a" - then update the href to change the link destination
+    "img" - then update the src to change the image source
+
+
+
+
 */
