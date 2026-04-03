@@ -1,3 +1,8 @@
+function styleChange(){
+    const styleChange = document.querySelector("link");
+    styleChange.href = "trivia.css";
+}
+
 function birth(){
     const bday = "1980";
     const answerOne = document.getElementById("answerOne");
