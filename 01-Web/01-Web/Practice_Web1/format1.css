@@ -1,13 +1,13 @@
-body {background-color: grey;
-    color: white;}
-p {background-color: lightblue;
-    color:aliceblue;}
-h1 {background-color: violet;
-    color: white;}
-h2 {background-color: lightgreen;
-    color: black;}
-.grey-element {
-    background-color: lightGray;}
-.redElement {background-color: red;
-    color: white;}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
 
+.input-field {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+}

@@ -88,7 +88,15 @@ vocabulary:
         variable.href="style.css";
     "a" - then update the href to change the link destination
     "img" - then update the src to change the image source
-
+32. img.getAttribute("src") - this retrieves the current value of the src attribute of the image element. This can be useful for checking the current image source before updating it or for other logic in your JavaScript code.
+33. setAttribute() - this method allows you to set the value of an attribute for a specified element. For example, if you want to change the source of an image, you can use the setAttribute method like this:
+    const imageElement = document.querySelector("img");
+    imageElement.setAttribute("src", "https://www.example.com/new-image.jpg");
+    This will change the src attribute of the image element to the new URL provided. The setAttribute method can be used to change any attribute of an element, such as href for links, type for inputs, or even custom data attributes.
+    - in setAttribute("attribute_name", "new_value")
+    - const el = document.querySelector("tag_name"); --> this selects which tag we are looking for.
+    - const imageStyle = el.getAttribute("style"); --> this retrieves the current value of the style attribute of the selected element. This can be useful for checking the current styling of an element before updating it or for other logic in your JavaScript code.
+    - document.querySelector("p").innerText = imageStyle; --> this sets the text content of the first paragraph element to the value of the imageStyle variable, which contains the current style attribute of the selected element. This allows you to display the current styling information on the webpage for debugging or informational purposes.
 
 
 
