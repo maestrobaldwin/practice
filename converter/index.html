@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>US to European Converter</title>
+        <link rel="stylesheet" href="convert.css">
+    </head>
+    <body>
+        <div>
+        <h1>Mile/Kilometer Converter</h1>
+        <input type="number" placeholder="Enter your desired distance" id="userInput">
+        <select id="unit">
+            <option selected disabled>Choose</option>
+            <option value="milesToKm">Miles to Kilometers</option>
+            <option value="kmToMiles">Kilometers to Miles</option>
+        </select>
+        <button onclick="convert()">Convert</button><br>
+        <p>Results:<span id=calculation>0</span></p>
+    </div>
+    <br>
+    <div>
+        <h1>Farenheit to Celsius</h1>
+             <input type="number" placeholder="Enter your desired tempurature" id="userInputTemp">
+        <select id="unitTemp">
+            <option selected disabled>Choose</option>
+            <option value="fToC">Fahrenheit to Celsius</option>
+            <option value="cToF">Celsius to Fahrenheit</option>
+        </select>
+        <button onclick="convertTemp()">Convert</button><br>
+        <p>Results:<span id=calculationTemp>0</span></p>
+    </div>
+    <br>
+
+        
+        <script src="converter.js"></script>
+    </body>
+</head>
+
+        
